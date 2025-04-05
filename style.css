@@ -1,0 +1,61 @@
+.banner{
+    height: 85vh;
+    background-image: url(img/back.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #FB8691;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.images{
+background: #FFEBEB;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20%;
+width: 240px;
+height: 60px;
+}
+
+.h_image{
+    width: 50px;
+    height: 50px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.cnt{
+    display: flex;
+    align-items: center;
+    gap: 43px;
+}
+
+.logo{
+    width: 75px;
+    padding-left: 40%;
+}
+
+input{
+background: #A75D5D;
+box-shadow: inset 0px 4px 5.3px rgba(100, 55, 55, 0.25);
+border-radius: 63px;
+border: none;
+width: 450px;
+height: 30px;
+
+}
