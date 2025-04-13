@@ -19,16 +19,22 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15px 0;
+    padding: 3px 0;
 }
 
-.images{
-background: #FFEBEB;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 20%;
-width: 240px;
-height: 60px;
-}
+.social-icons {
+    background-color: #fce4ec; /* нежно-розовый фон */
+    border-radius: 40px; /* скругление блока */
+    padding: 3px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.1); /* лёгкая тень */
+    width: fit-content;
+    margin: 20px auto; /* центрирование по ширине */
+  }
+  
 
 .h_image{
     width: 50px;
@@ -46,8 +52,9 @@ height: 60px;
 }
 
 .logo{
-    width: 75px;
+    width: 80px;
     padding-left: 40%;
+    margin: 10px;
 }
 
 input{
@@ -59,3 +66,57 @@ width: 450px;
 height: 30px;
 
 }
+
+.text {
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    color: #45171D;
+    text-align: left;
+    text-decoration: underline;
+    margin-left: auto;
+    margin-right: 55px;
+    margin-top: -140px;
+    margin-bottom: 5px;
+    width: fit-content;
+}
+
+.text1 {
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    margin-left: auto;
+    margin-right: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: fit-content;
+}
+
+button {
+    font-family: "Caprasimo", serif;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+
+    background: #FAF1E6;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid #BC646D;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em #BC646D;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #BC646D;
+  }
+  
+  button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #BC646D;
+  }
