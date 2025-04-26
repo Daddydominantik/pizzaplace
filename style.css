@@ -23,16 +23,16 @@ header{
 }
 
 .social-icons {
-    background-color: #fce4ec; /* нежно-розовый фон */
-    border-radius: 40px; /* скругление блока */
+    background-color: #fce4ec; 
+    border-radius: 40px; 
     padding: 3px 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
-    box-shadow: 0 6px 8px rgba(0,0,0,0.1); /* лёгкая тень */
+    box-shadow: 0 6px 8px rgba(0,0,0,0.1); 
     width: fit-content;
-    margin: 20px auto; /* центрирование по ширине */
+    margin: 20px auto; 
   }
   
 
@@ -97,17 +97,18 @@ height: 30px;
 button {
     font-family: "Caprasimo", serif;
     position: absolute;
-    right: 20px;
-    bottom: 20px;
+    right: 90px;
+    bottom: 45px;
 
     background: #FAF1E6;
     font-family: inherit;
     padding: 0.6em 1.3em;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 30px;
     border: 3px solid #BC646D;
     border-radius: 0.4em;
     box-shadow: 0.1em 0.1em #BC646D;
+    color: #A75D5D;
     cursor: pointer;
   }
   
@@ -119,4 +120,14 @@ button {
   button:active {
     transform: translate(0.05em, 0.05em);
     box-shadow: 0.05em 0.05em #BC646D;
+  }
+
+  input[type="text"]:focus {
+    border-color: #ff8ba7;
+    outline: none;
+    box-shadow: 0 0 5px #b95e73;
+  }
+
+  .catalog{
+    background-image: url(img/back1.png);
   }
