@@ -108,18 +108,13 @@ height: 30px;
     cursor: pointer;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
-
-  /* ORDER NOW */
-
-
-
   
-  button:hover {
+  .lol:hover {
     transform: translate(-0.05em, -0.05em);
     box-shadow: 0.15em 0.15em #BC646D;
   }
   
-  button:active {
+  .lol:active {
     transform: translate(0.05em, 0.05em);
     box-shadow: 0.05em 0.05em #BC646D;
   }
@@ -169,7 +164,7 @@ height: 30px;
   }
 
   .number{
-    font-family: "Borel";
+    font-family: "Caudex";
 font-style: normal;
 font-weight: 400;
 font-size: 90px;
@@ -235,4 +230,45 @@ margin: 0;
 
 .adv p{
   margin: 0;
+}
+
+.pizzas_title{
+  font-family: 'Caprasimo';
+}
+
+.pizzas{
+  background-image: url(img/back1.png); 
+  background-size: cover;
+  height: fit-content;
+
+}
+
+.pizzas_items{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap ;
+  justify-content: center;
+  gap: 90px;
+  width: 90%;
+  margin: 0 auto;
+  font-family: 'Caudex';
+}
+
+.bg{
+  background-image: url(img/bgg.png);
+  background-size: cover;
+}
+
+.pizzas_item{
+  width: 320px;
+  height: 450px;
+}
+
+.bg img{
+  width: 330px;
+  margin-bottom: 20%;
+}
+
+.item_price{
+  font-family: 'Borel';
 }
