@@ -234,12 +234,15 @@ margin: 0;
 
 .pizzas_title{
   font-family: 'Caprasimo';
+  text-align: center;
+  font-size: 90px;
 }
 
 .pizzas{
   background-image: url(img/back1.png); 
   background-size: cover;
   height: fit-content;
+  padding-top: 100px;
 
 }
 
@@ -252,16 +255,21 @@ margin: 0;
   width: 90%;
   margin: 0 auto;
   font-family: 'Caudex';
+   
 }
 
 .bg{
-  background-image: url(img/bgg.png);
-  background-size: cover;
+  border-radius: 40px;
+  background-color: #FAF1E6;
+
 }
 
-.pizzas_item{
-  width: 320px;
-  height: 450px;
+.pizzas_item{ 
+  background-image: url(img/bgg.png);
+  background-size: cover;
+  padding: 0 8px 24px 8px;
+  border-radius: 40px;
+  text-align: center;  
 }
 
 .bg img{
@@ -271,4 +279,73 @@ margin: 0;
 
 .item_price{
   font-family: 'Borel';
+  font-size: 40px;
+  padding: 0;
 }
+
+.item_name{
+  font-size: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.item_buy{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-family: inherit;
+  width: 270px;
+  font-size: 25px;
+ }
+ 
+ button.item_buy {
+  font-weight: 600;
+  color: #FAF1E6;
+  text-transform: uppercase;
+  padding: 1.25em 2em;
+  background: #FB8691;
+  border-radius: 0.75em;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+ }
+ 
+ button.item_buy::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ad4e57;
+  border-radius: inherit;
+  transform: translate3d(0, 0.75em, -1em);
+  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+ }
+ 
+ button.item_buy:hover {
+  background: #e47a84;
+  -webkit-transform: translate(0, 0.25em);
+  transform: translate(0, 0.25em);
+ }
+ 
+ button.item_buy:active {
+  background: #e47a84;
+  -webkit-transform: translate(0em, 0.75em);
+  transform: translate(0em, 0.75em);
+ }
+ 
+ button.item_buy:active::before {
+  -webkit-box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+  box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+  -webkit-transform: translate3d(0, 0, -1em);
+  transform: translate3d(0, 0, -1em);
+ }
