@@ -261,6 +261,8 @@ margin: 0;
 .bg{
   border-radius: 40px;
   background-color: #FAF1E6;
+  position: relative;
+  padding: 20px;
 
 }
 
@@ -270,17 +272,30 @@ margin: 0;
   padding: 0 8px 24px 8px;
   border-radius: 40px;
   text-align: center;  
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 140px;
+
 }
 
+
+
 .bg img{
-  width: 330px;
+  width: 350px;
   margin-bottom: 20%;
+  position: absolute;
+  top: -290px;
+  left: 0;
 }
 
 .item_price{
   font-family: 'Borel';
   font-size: 40px;
   padding: 0;
+  margin: 0;
 }
 
 .item_name{
@@ -300,10 +315,14 @@ margin: 0;
   text-decoration: none;
   font-family: inherit;
   width: 270px;
-  font-size: 25px;
+  font-size: 35px;
+  width: 310px;
+  height: 40px;
+  padding: 0%;
  }
  
  button.item_buy {
+  margin-bottom: 10%;
   font-weight: 600;
   color: #FAF1E6;
   text-transform: uppercase;
