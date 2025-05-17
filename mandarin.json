@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Berry Much in Love",
+        "price": 4.50,
+        "image": "BerryMuchinLove.png"
+    },
+
+    {
+        "title": "Slice of Paradise",
+        "price": 4.75,
+        "image": "SliceofParadise.png"
+    },
+
+    {
+        "title": "Sweet SixPack",
+        "price": 5.00,
+        "image": "SweetSixPack.png"
+    },
+
+    {
+        "title": "Caramelt Down",
+        "price": 3.75,
+        "image": "CarameltDown.png"
+    },
+
+    {
+        "title": "Nutty by Nature",
+        "price": 4.00,
+        "image": "NuttybyNature.png"
+    }
+]
